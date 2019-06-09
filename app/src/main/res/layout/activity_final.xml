@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prize_message"
+            style="@style/ThankYouMessageStyle"
+            android:text="Your prize"
+            app:fontFamily="serif" />
+
+        <ImageView
+            android:id="@+id/sardinia_flag_icon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/sardinia_icon_square" />
+
+        <TextView
+            android:id="@+id/how_to"
+            style="@style/WarningTextStyle"
+            android:text="@string/how_to_text" />
+
+        <CheckBox
+            android:id="@+id/via_email"
+            style="@style/CheckBoxStyle"
+            android:text="@string/via_email_text" />
+
+        <CheckBox
+            android:id="@+id/via_mail"
+            style="@style/CheckBoxStyle"
+            android:text="@string/via_mail_text" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:onClick="nextButton"
+            style="@style/NextButtonStyle"
+            android:text="@string/next_button_text" />
+
+    </LinearLayout>
+
+</ScrollView>

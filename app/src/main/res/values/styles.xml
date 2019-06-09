@@ -1,0 +1,164 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for app name -->
+    <style name="AppNameStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:shadowColor">#FF9800</item>
+    </style>
+
+    <!-- Style for app tag line -->
+    <style name="AppTagLineStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!-- Style for user name input -->
+    <style name="UserNameFieldStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:textColorHint">#FF9800</item>
+    </style>
+
+    <!-- Style for questions -->
+    <style name="QuestionTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for answers -->
+    <style name="AnswerTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style for message text -->
+    <style name="MessageTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!-- Style for warning text -->
+    <style name="WarningTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#FF9800</item>
+    </style>
+
+    <!-- Style for thank you text -->
+    <style name="ThankYouMessageStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="UserScoreViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!-- Style for submit/go button -->
+    <style name="SubmitButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">#FF9800</item>
+    </style>
+
+    <!-- Style for next button -->
+    <style name="NextButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">#FF9800</item>
+    </style>
+
+    <!-- Style for checkbox -->
+    <style name="CheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">#FF9800</item>
+    </style>
+
+    <!-- Style for background image -->
+    <style name="BackgroundImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:textColor">#FF9800</item>
+    </style>
+
+    <!-- Style for Sardinia flag -->
+    <style name="SardiniaFlagStyle">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+</resources>

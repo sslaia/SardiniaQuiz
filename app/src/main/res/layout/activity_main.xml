@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            style="@style/BackgroundImageStyle"
+            android:contentDescription="@string/sardinia_flag"
+            app:srcCompat="@drawable/sardinia_flag_flying" />
+
+        <TextView
+            android:id="@+id/app_name_text"
+            style="@style/AppNameStyle"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/app_tag_line_text"
+            style="@style/AppTagLineStyle"
+            android:layout_below="@+id/app_name_text"
+            android:text="@string/app_tag_line"
+            app:fontFamily="serif" />
+
+        <ImageView
+            android:id="@+id/sardinia_flag"
+            style="@style/SardiniaFlagStyle"
+            android:layout_below="@+id/app_tag_line_text"
+            android:contentDescription="@string/sardinia_flag"
+            app:srcCompat="@drawable/sardinia_icon_square" />
+
+        <TextView
+            android:id="@+id/warning_text"
+            style="@style/WarningTextStyle"
+            android:layout_below="@+id/sardinia_flag"
+            android:text="@string/warning_text"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/user_name_text"
+            style="@style/UserNameFieldStyle"
+            android:layout_below="@+id/warning_text"
+            android:autofillHints="@string/user_name_text"
+            android:hint="@string/user_name_text"
+            app:fontFamily="serif" />
+
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/SubmitButtonStyle"
+            android:layout_below="@+id/user_name_text"
+            android:onClick="submitButton"
+            android:text="@string/go_button_text" />
+
+    </RelativeLayout>
+
+</ScrollView>
