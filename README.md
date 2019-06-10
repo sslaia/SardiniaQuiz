@@ -1,5 +1,5 @@
 # SardiniaQuiz
-A quiz app about **Sardinia**, Italy, an island I also call home in while.
+A quiz app about **Sardinia**, Italy, an island I also call home in a while.
 
 This is an early version, so it's very simple and the question are quite easy really.
 
