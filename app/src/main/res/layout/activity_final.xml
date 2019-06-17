@@ -22,7 +22,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@drawable/sardinia_icon_square" />
+            app:srcCompat="@drawable/sardinian_head" />
 
         <TextView
             android:id="@+id/how_to"

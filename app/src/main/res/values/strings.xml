@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">SardiniaQuiz</string>
+    <string name="attribution_text">1. Sardinian flag (modified): By Angelus (https://commons.wikimedia.org/wiki/File:Flag_of_Sardinia,_Italy.svg), License: No attribution required.\n2. Flying Sardinia flag photo: By Stephanie Albert (https://pixabay.com/photos/sardinia-flag-sky-3408149/), License: Free for commercial use. No attribution required.</string>
     <string name="app_tag_line">Refresh your knowledge and win!</string>
     <string name="sardinia_flag">Sardinia flag</string>
     <string name="user_name_text">Enter your name here to win</string>

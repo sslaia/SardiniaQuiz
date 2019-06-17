@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SardiniaQuiz</string>
+    <string name="app_tag_line">Aggiorna le tue conoscenze e vinci!</string>
 </resources>
